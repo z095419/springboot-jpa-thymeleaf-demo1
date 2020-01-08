@@ -57,13 +57,16 @@ public class UserController {
         return "redirect:/";
     }
 
-    public String test1(Long id){
-        System.out.println("小白增加test1");
+    public String test1(Integer id){
+        System.out.println("老鸟增加test1");
         return "test1";
     }
     public String test2(Integer id){
-        System.out.println("小白增加test2");
-        return "id";
+        System.out.println("老鸟增加test2");
+        return "test1";
     }
-
+    public String test3(Integer id){
+        System.out.println("老鸟增加test3");
+        return "test1";
+    }
 }
