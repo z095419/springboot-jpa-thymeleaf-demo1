@@ -56,4 +56,14 @@ public class UserController {
         service.delete(id);
         return "redirect:/";
     }
+
+    public String test1(Long id){
+        System.out.println("小白增加test1");
+        return "test1";
+    }
+    public String test2(Integer id){
+        System.out.println("小白增加test2");
+        return "id";
+    }
+
 }
